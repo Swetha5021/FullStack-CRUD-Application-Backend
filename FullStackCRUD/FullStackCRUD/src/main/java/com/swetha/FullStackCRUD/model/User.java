@@ -1,6 +1,7 @@
 package com.swetha.FullStackCRUD.model;
 
 import javax.persistence.Entity;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
@@ -44,4 +45,5 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+    
 }
