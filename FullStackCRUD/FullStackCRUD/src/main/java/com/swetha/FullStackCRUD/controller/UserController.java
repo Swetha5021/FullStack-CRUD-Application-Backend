@@ -1,12 +1,13 @@
 package com.swetha.FullStackCRUD.controller;
 
+
 import com.swetha.FullStackCRUD.exception.UserNotFoundException;
 import com.swetha.FullStackCRUD.model.User;
 import com.swetha.FullStackCRUD.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
+
 
 @RestController
 @CrossOrigin("http://localhost:3000/")
